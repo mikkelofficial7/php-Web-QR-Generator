@@ -1,0 +1,205 @@
+.table-detail
+{
+	width: auto!important; 
+	overflow: auto!important;
+}
+@media screen and (max-width: 380px) {
+  #qr-black
+  {
+    font-size:100px!important;
+    text-align: center;
+  }
+  #qr-red
+  {
+    margin-right: 80px!important;
+    font-size:100px!important;
+    color: #000!important;
+  }
+}
+@media screen and (min-width: 381px) {
+  #qr-black
+  {
+    font-size:200px!important;
+    text-align: center;
+  }
+  #qr-red
+  {
+    font-size:200px!important;
+    color: #000!important;
+  }
+}
+.text-quota
+{
+	width:50px;
+}
+.text-phone
+{
+	width: 130px;
+}
+.text-time, .text-name
+{
+	width: 170px;
+}
+.update-group
+{
+	margin-bottom: 20px!important;
+}
+
+/* width */
+::-webkit-scrollbar, table::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track, table::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb, table::-webkit-scrollbar-thumb {
+    background: rgba(0,0,255,0.3); 
+    opacity: 0.9;
+    border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover, table::-webkit-scrollbar-thumb:hover {
+    background: rgb(112, 122, 137); 
+}
+#btn-submits
+{
+	background-color: #4a4f59!important;
+	border-color: #4a4f59!important;
+}
+#btn-submits:hover, #btn-submits:active
+{
+	background-color: #303135!important;
+	border-color: #303135!important;
+}
+#register-href
+{
+	margin-top: 5px!important;
+	margin-bottom: 5px!important;
+	text-align: center;
+}
+#forgot-href
+{
+	padding-top: 2px!important;
+	text-align: center;
+}
+#href
+{
+	color: #272d44;
+	font-weight: 700;
+}
+#href:hover, #href:active
+{
+	color: #3b456d;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: italic;
+}
+#inputUser, #inputPassword
+{
+	margin-top: 10px;
+}
+.text-header
+{
+	font-weight: 900;
+	margin-bottom: 20px!important;
+}
+#qr-black-logo
+{
+	font-size: 100px;
+}
+#qr-logo-span
+{
+	margin-left : 100px;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.table-list
+{
+	border-color: red!important;
+}
+
+HTML  CSS  JS  Result
+EDIT ON
+ * {
+  margin: 0;
+  padding: 0;
+  text-align:center;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+table {
+  color: #333;
+  font-size: .9em;
+  font-weight: 300;
+  line-height: 40px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #2e3a4c;
+  width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.16);
+  border-radius: 2px;
+}
+
+th {
+  background: #2e3a4c;
+  color: #fff;
+  border: none;
+}
+
+tr:hover:not(th) {background-color: rgba(237,28,64,.1);}
+
+
+input[type="button"] {
+    transition: all .3s;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input[type="button"]:not(.active) {
+    background-color:transparent;
+}
+
+.active {
+    background-color: #2e3a4c;
+    color :#fff;
+}
+
+input[type="button"]:hover:not(.active) {
+    background-color: #ddd;
+}
